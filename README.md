@@ -1,6 +1,8 @@
+to run this
+
 run npm i
 
-configure .env
+configure a .env at root with the variables below:
 
 SENTRY_AUTH_TOKEN=
 SENTRY_ORG=
