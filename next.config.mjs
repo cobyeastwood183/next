@@ -7,11 +7,9 @@ const withNextIntl = createNextIntlPlugin("./i18n/requests.js");
 
 const nextConfig = {
   reactStrictMode: true,
-};;
+};
 
 const nextIntlConfig = withNextIntl(nextConfig);
-
-console.log(process.env.SENTRY_AUTH_TOKEN);
 
 export default withSentryConfig(nextIntlConfig, {
   // For all available options, see:
