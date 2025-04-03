@@ -1,0 +1,8 @@
+run npm i
+
+configure .env
+
+SENTRY_AUTH_TOKEN=
+SENTRY_ORG=
+SENTRY_PROJECT=
+SENTRY_DSN=
