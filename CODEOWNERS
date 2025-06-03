@@ -1,0 +1,8 @@
+# This file defines who is responsible for different parts of the codebase
+# Each line is a file pattern followed by one or more owners
+
+# Sentry API example endpoint
+/src/api/sentry-example-api coby.eastwood@sentry.io
+
+# Main application page
+/pages/index coby.eastwood@sentry.io

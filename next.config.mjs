@@ -17,15 +17,9 @@ export default withSentryConfig(nextIntlConfig, {
 
   org: process.env.SENTRY_ORG,
   project: process.env.SENTRY_PROJECT,
-
-  sourcemaps: {
-    disable: true,
-  },
-
   silent: !process.env.CI,
   authToken: process.env.SENTRY_AUTH_TOKEN,
   widenClientFileUpload: false,
   hideSourceMaps: true,
-  disableLogger: true,
   automaticVercelMonitors: true,
 });
