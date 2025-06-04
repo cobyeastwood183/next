@@ -5,4 +5,4 @@
 src/pages/api/* coby.eastwood@sentry.io
 
 # Main application page
-src/pages/index coby.eastwood@sentry.io
+src/pages/index.js coby.eastwood@sentry.io
