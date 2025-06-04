@@ -2,7 +2,7 @@
 # Each line is a file pattern followed by one or more owners
 
 # Sentry API example endpoint
-my-app/src/pages/api/* coby.eastwood@sentry.io
+src/pages/api/* coby.eastwood@sentry.io
 
 # Main application page
-my-app/src/pages/index coby.eastwood@sentry.io
+src/pages/index coby.eastwood@sentry.io
