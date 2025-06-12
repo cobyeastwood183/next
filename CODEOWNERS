@@ -4,6 +4,6 @@
 # Sentry API example endpoint
 /src/pages/api/* coby.eastwood@sentry.io
 src/pages/api/* coby.eastwood@sentry.io
-*src/pages/api/* coby.eastwood@sentry.io
+**src/pages/api/* coby.eastwood@sentry.io
 app:///_next/server/pages/api/example.js coby.eastwood@sentry.io
 server/pages/api/* coby.eastwood@sentry.io
